@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>juego Pokemon</title>
+    <link rel="stylesheet" href="../css/juego.css">
+    <script src="../js/juego.js"></script>
+</head>
+<div class="container">
+    <div class="juego">
+        <header></header>
+        <nav></nav>
+        <section>
+            <div class="textoinicial">
+                <h4>
+                    <label for="">Puntaje:</label>
+                    <label for="" id="idpuntaje">0</label>
+                </h4>
+                <h4>
+                    <label for="">Intentos:</label>
+                    <label for="" id="idintentos">0</label>
+                </h4>
+                <h4>
+                    <label for="">Selecciona el nombre de Pokémon correcto</label>
+                </h4>
+            </div>
+
+            <div id="idimageninicial">
+                <img src="../images/pnegro.jpg" alt="No se puede cargar la imagen">
+            </div>
+            <div class="botones">
+                <button onclick="opcionIncorrecta()">keldeo-ordinary</button>
+                <button onclick="opcionIncorrecta()">drilbur</button>
+                <button onclick="opcionIncorrecta()">ninjask</button>
+                <button onclick="opcionCorrecta()">excadrill</button>
+            </div>
+            <div class="mensajes">
+                <h4>
+                    <label for="" id="idopcorrecta"></label>
+                </h4>
+                <h4>
+                    <label for="" id="idopincorrecta"></label>
+                </h4>
+            </div>
+            <div class="reiniciar">
+                <button id="idbtnreiniciar" onclick="reiniciar()">Reiniciar</button>
+            </div>
+
+        </section>
+        <aside></aside>
+        <footer></footer>
+    </div>
+
+</div>
+
+<body>
+
+</body>
+
+</html>

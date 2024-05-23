@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    height: auto;
+}
+.juego{
+    border: 1px solid black;
+    padding: 5px;
+
+}
+.textoinicial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed blueviolet;
+    border-radius: 5px;
+
+}
+#idimageninicial {
+    border: 4px solid yellow;
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: gainsboro;
+}
+
+button {
+    background:white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 200px;
+    margin-bottom: 5px;
+}
+#idopcorrecta{
+    background: blue;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+}
+#idopincorrecta{
+    background: red;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+}
